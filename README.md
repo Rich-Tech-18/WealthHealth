@@ -1,3 +1,38 @@
+# WealthHealth's project
+## Step 1 : Installing the prerequisites
+
+* NodeJS v16.18.1: [Link](https://nodejs.org/fr/download/)
+* Yarn v1.22.19 : [Link](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+### Step 2 : Download the project
+
+With the bash shell or Widows shell,
+
+do the following command : ```git clone https://github.com/Rich-Tech-18/WealthHealth```
+
+## Step 4 : Installing the frontend
+
+with your shell, go the to folder front.
+
+followings the command : ```yarn install```
+
+
+## Step 5 : Project start-up
+
+### Launch the front-server :
+
+on the folder front,
+
+use the command : ```yarn start```
+
+the project start on port 2000 : [Link](http://localhost:3000/)
+
+
+### Tools used :
+
+* Material UI v5.11.7: [Link](https://mui.com/material-ui/getting-started/installation/)
+
+
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
