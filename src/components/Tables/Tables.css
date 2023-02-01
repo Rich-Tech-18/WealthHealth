@@ -1,0 +1,17 @@
+.buttonHome {
+    margin-top: 2rem !important; 
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+thead tr th {
+    text-align: center !important;
+}
+
+tbody tr td {
+    text-align: center !important;
+}

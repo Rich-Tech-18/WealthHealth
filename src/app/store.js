@@ -1,8 +1,39 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { createStore } from "redux";
 
-export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+
+const initialState = {
+    user : [
+
+    ]
+};
+
+
+
+export const dataUser = (data) => ({
+  type: "newUser",
+  payload: data
+})
+
+
+function reducer(state, action){
+    
+    // if(action.type === "name"){
+    //     const first = action.payload.firstName;
+    //     return{
+    //         ...state,
+    //         firstName: first
+    // }
+    // }
+    if(action.type === "newUser"){
+      return{
+        ...state,
+        user: [...state.user, action.payload]
+
+      }
+    }
+    return state;
+    
+}
+
+
+export const store = createStore(reducer, initialState);
